@@ -22,6 +22,7 @@ public class SimpleServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     	// do whatever you want 
         response.setContentType("text/html");
+        // working on the feature
         // second comment 
         response.getWriter().print("Hello Walters GitWorld!");
         response.getWriter().print("<br/>second line");
