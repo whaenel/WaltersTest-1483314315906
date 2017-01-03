@@ -25,7 +25,7 @@ public class SimpleServlet extends HttpServlet {
         // second comment 
         response.getWriter().print("Hello Walters GitWorld!");
         response.getWriter().print("<br/>second line");
-        getWriter().print("<br/> 3 + 4 Sum is  7");
+        response.getWriter().print("<br/> 3 + 4 Sum is  7");
    }
 
 }
