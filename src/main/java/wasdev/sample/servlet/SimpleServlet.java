@@ -23,6 +23,10 @@ public class SimpleServlet extends HttpServlet {
         response.setContentType("text/html");
         response.getWriter().println("Hello MyGitWorld!");
         response.getWriter().print("2 wAnother text!");
+        response.getWriter().print("Hello Walters GitWorld!");
+        response.getWriter().print("Another text!");
+        response.getWriter().print("Hello Walters GitWorld!");
+        response.getWriter().print("Another text!");
     }
 
 }
